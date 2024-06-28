@@ -8,9 +8,9 @@ const Profile = ({ user }) => {
                     src={user.avatar}
                     alt="User avatar"
                 />
-                <h1>{user.username}</h1>
-                <h2>@{user.tag}</h2>
-                <h2>{user.location}</h2>
+                <p className={s.user_name}>{user.username}</p>
+                <p className={s.user_info}>@{user.tag}</p>
+                <p className={s.user_info}>{user.location}</p>
             </div>
 
             <ul className={s.user_stats}>
