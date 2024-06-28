@@ -1,10 +1,11 @@
 import Profile from "./Profile/Profile";
-import userdata from "../userdata.json";
+import userData from "../userData.json";
 
-export default function App() {
+const App = () => {
   return (
     <>
      <Profile user={userdata} />
     </>
   );
 };
+export default App;
