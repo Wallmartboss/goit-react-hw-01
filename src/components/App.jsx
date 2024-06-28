@@ -4,7 +4,7 @@ import userData from "../userData.json";
 const App = () => {
   return (
     <>
-     <Profile user={userdata} />
+      <Profile user={userData} />
     </>
   );
 };
